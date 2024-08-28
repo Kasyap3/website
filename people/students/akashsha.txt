@@ -1,5 +1,0 @@
-name:: Akash Sharma
-img:: people/students/akashsha.jpeg
-url:: https://akashsharma02.github.io/
-program:: PhD
-year:: 2021

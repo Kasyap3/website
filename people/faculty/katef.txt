@@ -1,3 +1,0 @@
-name:: Katerina Fragkiadaki
-url:: https://www.cs.cmu.edu/~katef/
-img:: people/faculty/katef.png

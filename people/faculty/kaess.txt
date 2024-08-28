@@ -1,3 +1,0 @@
-name:: Michael Kaess
-url:: https://www.cs.cmu.edu/~kaess/
-img:: people/faculty/kaess.jpeg

@@ -1,3 +1,0 @@
-name:: Ioannis Gkioulekas
-url:: https://www.cs.cmu.edu/~igkioule/
-img:: https://www.cs.cmu.edu/~igkioule/index_files/photo.jpg

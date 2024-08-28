@@ -1,3 +1,0 @@
-name:: Shubham Tulsiani
-url:: https://shubhtuls.github.io
-img:: people/faculty/stulsian.jpeg

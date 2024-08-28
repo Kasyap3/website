@@ -1,5 +1,0 @@
-name:: Khiem Vuong
-img:: people/students/kvuong.jpg
-url:: https://www.khiemvuong.com/
-program:: MSR 
-year:: 2021
