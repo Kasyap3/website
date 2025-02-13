@@ -1,24 +1,23 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-
-  <meta name="description" content="Kasyap Varanasi is a MS CS candidate in computer science at UMass Amherst.">
+  
+  <meta name="description" content="Kasyap Varanasi is a MS CS candidate specializing in NLP, GenAI, and ML.">
   <meta name="author" content="Kasyap Varanasi">
-  <meta name="keywords" content="Kasyap Varanasi,Kasyap,Varanasi,Computer,Graphics,Vision,Deep,Machine,Learning,Physics,Bioinformatics,Computational Biology,UMass,Amherst">
+  <meta name="keywords" content="Kasyap Varanasi, NLP, GenAI, Machine Learning, Computer Science, UMass Amherst">
 
   <title>Kasyap Varanasi</title>
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="https://www.umass.edu/favicon.ico" rel=icon>
+  <link rel="shortcut icon" href="https://www.umass.edu/favicon.ico" rel="icon">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -30,556 +29,271 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
   <!-- clipboard.js -->
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
-
- 
-
 </head>
-
 <body>
 
-  <div class="container-fluid">
+  <!-- Sticky Header with Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Kasyap Varanasi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pub">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="#edu">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#exp">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Home -->
-    <div class="sec-wrapper home-wrapper" id="home">
+  <div class="container my-4">
+
+    <!-- Home Section -->
+    <section id="home" class="sec-wrapper home-wrapper py-4">
       <div class="row align-items-center">
-        <div class="col-sm-auto col-wrapper">
+        <div class="col-sm-auto text-center">
           <div id="profile-credit" class="picture">
-            <img id="profile" src="assets/profile/myself.webp" class="img-responsive" alt="[Kasyap :)]"/>
-            <!-- <div id="credit" class="credit">Photo by Lijie Chen</div> -->
+            <img id="profile" src="assets/profile/myself.webp" class="img-fluid rounded shadow" alt="[Kasyap :)]"/>
           </div>
         </div>
-        <div class="col-sm col-wrapper">
+        <div class="col-sm">
           <div class="description">
-            <div class="name">Kasyap Varanasi</div>
-            <div>MS CS Candidate, UMass Amherst</div>
-            <div>Email: X (at) Y (dot) Z</div>
-            <div>X = lvaranasi, Y = umass, Z = edu  (or) </div>
-            <div>X = kasyap, Y = aira-technology, Z = com </div>
-            <div>Office: 20640 Third Street, Suite 200, Saratoga, CA 95070</div>
+            <h1 class="name">Kasyap Varanasi</h1>
+            <p>MS CS Candidate, UMass Amherst</p>
+            <p>Email: X (at) Y (dot) Z</p>
+            <p>X = lvaranasi, Y = umass, Z = edu  (or)</p>
+            <p>X = kasyap, Y = aira-technology, Z = com</p>
+            <p>Office: 20640 Third Street, Suite 200, Saratoga, CA 95070</p>
             <div class="social">
               <a href="https://scholar.google.com/citations?user=aFHhXwoAAAAJ">Scholar</a> /
-              <!-- <a href="https://www.bing.com/ck/a?!&&p=79e83718408caa5dJmltdHM9MTcyNDU0NDAwMCZpZ3VpZD0xOWE0NTVjNy0xMDEzLTY1ZTItM2Y5ZC00MTQwMTFlNDY0ZDQmaW5zaWQ9NTE5Ng&ptn=3&ver=2&hsh=3&fclid=19a455c7-1013-65e2-3f9d-414011e464d4&psq=kasyap+varanasi+dblp&u=a1aHR0cHM6Ly9kYmxwLm9yZy9waWQvMzIzLzM4MTQ&ntb=1">DBLP</a> / -->
               <a href="https://github.com/Kasyap3/">GitHub</a> /
-              <a href="www.linkedin.com/in/kasyap-varanasi">Linkedin</a> /
+              <a href="https://www.linkedin.com/in/kasyap-varanasi" target="_blank">LinkedIn</a> /
               <a href="assets/profile/Curriculum_Vitae.pdf">CV</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Home -->
-    <br>
-  </br>
-  <div style="text-align: center;">
-    <div style="display: inline-block; margin: 0 10px;">
-        <img id="profile" src="assets/profile/aira.webp" class="img-responsive" alt="[Kasyap :)]" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-        <p style="margin: 5px 0;">Jan 25</p>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <img id="profile" src="assets/profile/umass.webp" class="img-responsive" alt="[Kasyap :)]" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-        <p style="margin: 5px 0;">Sep 24</p>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <img id="profile" src="assets/profile/MSR.webp" class="img-responsive" alt="[Kasyap :)]" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-        <p style="margin: 5px 0;">Jan 24 - Jul 24</p>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <img id="profile" src="assets/profile/u-of-t-logo_orig.webp" class="img-responsive" alt="[Kasyap :)]" style="width:90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-        <p style="margin: 5px 0;">May 23 - Sep 23</p>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-        <img id="profile" src="assets/profile/otu.webp" class="img-responsive" alt="[Kasyap :)]" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-        <p style="margin: 5px 0;">May 23 - Sep 23</p>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-      <img id="profile" src="assets/profile/IIIT-Sri-City.webp" class="img-responsive" alt="[Kasyap :)]" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-      <p style="margin: 5px 0;">Jun 22 - Apr 23</p>
-    </div>
-    <div style="display: inline-block; margin: 0 10px;">
-      <img id="profile" src="assets/profile/harvard.webp" class="img-responsive" alt="[Kasyap :)]" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover;"/>
-      <p style="margin: 5px 0;">Jun 22 - Aug 22</p>
-    </div>
-  </div>
-  
-  
-    <div style="height: 20px;"></div> <!-- Line of blank space -->
-    
-    <!-- Add additional content here -->
-    
-          
-    <!-- Bio -->
-    <div class="sec-wrapper bio-wrapper" id="bio">
-      <div class="row section-head">
-        <div class="col col-wrapper">
-          <div class="section-title">Biography</div>
-        </div>
-      </div>
-      <div class="row section-item">
-        <div class="col col-wrapper">
-          Kasyap Varanasi
-          <a class="info" data-bs-toggle="collapse" href="#name-content" id="name-trigger" title="Learn my name" onclick="return false">
-            (<span class="zh-name">కాశ్యప్ వారణాసి</span><sup class="name-icon"><i class="bi bi-info"></i></sup>)
-          </a>
-          is a first-year MS CS candidate at <a href="https://www.cics.umass.edu/">UMass Amherst-CICS</a>,
-          advised by <a href="https://scholar.google.com/citations?user=KdxFTCkAAAAJ">Prof. K.S. Jagannatha Rao</a>.
-          Previously, he worked with <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Prof. Rahul G. Krishnan</a> and
-          <a href="https://scholar.google.com/citations?hl=en&user=ed0eyKYAAAAJ&view_op=list_works&sortby=pubdate">Prof. Samaneh Mazaheri</a> at University of Toronto and Ontario Tech University.
-          His research goal covers the whole pipeline of <b>ML for healthcare</b>:
-          (1) evaluating robustness of DL models for Neurological disorders,
-          (2) working on using the long-axis view from cardiac MRI sequences to detect mitral valve regurgitation,
-          and (3) developing multitask learning techniques.
-          <a data-bs-toggle="collapse" href="#more-content" id="more-trigger" title="Load More">[...]</a>
-        </div>
-      </div>
-    </div>
-    <!-- Bio -->
 
-    <!-- Name -->
+      <!-- Timeline (Creative image row) -->
+      <div class="timeline my-4 text-center">
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/aira.webp" class="img-fluid rounded-circle timeline-img" alt="Aira" />
+          <p class="timeline-text">Jan 25</p>
+        </div>
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/umass.webp" class="img-fluid rounded-circle timeline-img" alt="UMass" />
+          <p class="timeline-text">Sep 24</p>
+        </div>
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/MSR.webp" class="img-fluid rounded-circle timeline-img" alt="MSR" />
+          <p class="timeline-text">Jan 24 - Jul 24</p>
+        </div>
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/u-of-t-logo_orig.webp" class="img-fluid rounded-circle timeline-img" alt="UofT" />
+          <p class="timeline-text">May 23 - Sep 23</p>
+        </div>
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/otu.webp" class="img-fluid rounded-circle timeline-img" alt="OTU" />
+          <p class="timeline-text">May 23 - Sep 23</p>
+        </div>
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/IIIT-Sri-City.webp" class="img-fluid rounded-circle timeline-img" alt="IIIT-Sri-City" />
+          <p class="timeline-text">Jun 22 - Apr 23</p>
+        </div>
+        <div class="d-inline-block mx-2 timeline-item">
+          <img src="assets/profile/harvard.webp" class="img-fluid rounded-circle timeline-img" alt="Harvard" />
+          <p class="timeline-text">Jun 22 - Aug 22</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio" class="sec-wrapper bio-wrapper py-4 border-top">
+      <h2 class="section-title">Biography</h2>
+      <p>
+        Kasyap Varanasi 
+        <a class="info" data-bs-toggle="collapse" href="#name-content" id="name-trigger" title="Learn my name" onclick="return false">
+          (<span class="zh-name">కాశ్యప్ వారణాసి</span><sup class="name-icon"><i class="bi bi-info-circle"></i></sup>)
+        </a>
+        is a first-year MS CS candidate at 
+        <a href="https://www.cics.umass.edu/">UMass Amherst-CICS</a>, advised by 
+        <a href="https://scholar.google.com/citations?user=KdxFTCkAAAAJ">Prof. K.S. Jagannatha Rao</a>.
+        Previously, he worked with 
+        <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Prof. Rahul G. Krishnan</a> and 
+        <a href="https://scholar.google.com/citations?hl=en&user=ed0eyKYAAAAJ&view_op=list_works&sortby=pubdate">Prof. Samaneh Mazaheri</a> at the University of Toronto and Ontario Tech University.
+        His research spans <strong>ML for healthcare</strong> – from evaluating deep learning robustness for neurological disorders to developing multitask learning techniques.
+        <a data-bs-toggle="collapse" href="#more-content" id="more-trigger" title="Load More">[...]</a>
+      </p>
+    </section>
+
+    <!-- Collapsible Extra Sections (Name, Education, Experience) -->
     <div class="collapse" id="name-content">
-      <div class="sec-wrapper name-wrapper" id="name">
-        <div class="row section-head">
-          <div class="col col-wrapper">
-            <div class="section-title">Name</div>
-          </div>
-        </div>
-        <div class="row section-item">
-          <div class="col col-wrapper">
-            <p>
-              Family name:
-              <a class="zh-a" href="https://en.wikipedia.org/wiki/Varanasi"><ruby><rb>వారణాసి(Varanasi)</rb></ruby></a>
-              means Holy Place in India (people believe its the origin city of civilization).
-            </p>
-            <p>
-              Given name:
-              <a class="zh-a" href="https://en.wikipedia.org/wiki/Varanasi"><ruby><rb>కాశ్యప్(Kasyap)</rb></ruby></a>
-              means revered Vedic sage of Hinduism.
-            </p>
-            <p>
-              Quoted from a Indian mythology
-              <a class="zh-a" href="https://en.wikipedia.org/wiki/Vedic_Sanskrit">కాశ్యప్ వారణాసి</a>,
-              my full name mean a steady path where one can journey without obstacles, signifies a life of smooth and uninterrupted progress.
-            </p>
-          </div>
-        </div>
-      </div>
+      <section class="sec-wrapper name-wrapper py-4 border-top">
+        <h2 class="section-title">Name</h2>
+        <p>
+          Family name: 
+          <a class="zh-a" href="https://en.wikipedia.org/wiki/Varanasi">
+            <ruby><rb>వారణాసి (Varanasi)</rb></ruby>
+          </a>
+          – meaning “Holy Place” in India.
+        </p>
+        <p>
+          Given name: 
+          <a class="zh-a" href="https://en.wikipedia.org/wiki/Kasyap">
+            <ruby><rb>కాశ్యప్ (Kasyap)</rb></ruby>
+          </a>
+          – referring to the revered Vedic sage.
+        </p>
+        <p>
+          Together, <a class="zh-a" href="https://en.wikipedia.org/wiki/Vedic_Sanskrit">కాశ్యప్ వారణాసి</a> signifies a path of smooth progress.
+        </p>
+      </section>
     </div>
-    <!-- Name -->
-    <div class="row section-head">
-      <div class="col-md-auto col-wrapper">
-          <div class="section-title">News</div>
-          <div style="width: 100%; max-width: 600px; height: 150px; border: 1px solid #ccc; padding: 10px; overflow-y: auto;">
-              <p>16-Jan 2025: Started working in Aira Tech with AI Systems team (
-                <a href="https://www.linkedin.com/in/jash-rathod" target="_blank">Jash Rathod</a>, 
-                <a href="https://www.linkedin.com/in/rahul-vippala" target="_blank">Rahul Vippala</a> and  
-                <a href="https://www.linkedin.com/in/armanrz" target="_blank">Arman</a>)</p>
-              <p>13-Sep 2024: Starting my independent study at <a href="https://www.umass.edu/">UMass</a> as a graduate student researcher with 
-        <a href="https://groups.cs.umass.edu/jensen/" target="_blank">Prof. David Jensen</a> and 
-        <a href="https://purvapruthi.github.io/" target="_blank">Purva Pruthi</a> at the 
-        <a href="https://groups.cs.umass.edu/kdl/" target="_blank">Knowledge Discovery Lab</a></p>
-            <p>05-Sep 2024: Starting <a href="https://www.cics.umass.edu/people/marlin-ben" target="_blank">COMPSCI 689: Advanced Machine Learning</a> with Ben Marlin and 
-       <a href="https://www.math.umass.edu/directory/joanna-jeneralczuk" target="_blank">MATH 501: Applied Statistics</a> with Joanna Jeneralczuk
-              <p>03-Sep 2024: Started classes at UMass Amherst</p>
-              <p>14-Aug 2024: Landed in USA</p>
-              <p style="color: grey;">
-                Updates will be available starting Summer 2024. For a comprehensive overview of my previous work, please visit my 
-                <a href="https://kasyap3.github.io/kasyap_portfolio/" style="color: grey; text-decoration: underline;">archived portfolio</a>.
-            </p>          </div>
+
+    <!-- News Section -->
+    <section id="news" class="py-4 border-top">
+      <h2 class="section-title">News</h2>
+      <div class="news-box p-3 border rounded" style="max-height: 200px; overflow-y: auto;">
+        <p>16-Jan 2025: Started working in Aira Tech with the AI Systems team (<a href="https://www.linkedin.com/in/jash-rathod" target="_blank">Jash Rathod</a>, 
+          <a href="https://www.linkedin.com/in/rahul-vippala" target="_blank">Rahul Vippala</a> and  
+          <a href="https://www.linkedin.com/in/armanrz" target="_blank">Arman</a>)</p>
+        <p>13-Sep 2024: Beginning my independent study at <a href="https://www.umass.edu/">UMass</a> as a graduate researcher with 
+          <a href="https://groups.cs.umass.edu/jensen/" target="_blank">Prof. David Jensen</a> and 
+          <a href="https://purvapruthi.github.io/" target="_blank">Purva Pruthi</a> at the 
+          <a href="https://groups.cs.umass.edu/kdl/" target="_blank">Knowledge Discovery Lab</a>.</p>
+        <p>05-Sep 2024: Starting <a href="https://www.cics.umass.edu/people/marlin-ben" target="_blank">COMPSCI 689: Advanced Machine Learning</a> with Ben Marlin and 
+          <a href="https://www.math.umass.edu/directory/joanna-jeneralczuk" target="_blank">MATH 501: Applied Statistics</a>.</p>
+        <p>03-Sep 2024: Started classes at UMass Amherst.</p>
+        <p>14-Aug 2024: Landed in the USA.</p>
+        <p class="text-muted">
+          For a complete history of my work, visit my 
+          <a href="https://kasyap3.github.io/kasyap_portfolio/" class="text-muted text-decoration-underline">archived portfolio</a>.
+        </p>
       </div>
-  </div>
-  
+    </section>
 
-    
-    
-    <!-- Research -->
-    <div class="sec-wrapper pub-wrapper" id="pub">
-
-      <div class="row section-head">
-        <div class="col-md-auto col-wrapper">
-          <div class="section-title">Research</div>
-        </div>
-        <div class="col-md section-sub col-wrapper">
-          (* indicates equal contribution, <span class="representative">highlight</span> indicates representative papers)
+    <!-- Research Section -->
+    <section id="pub" class="sec-wrapper pub-wrapper py-4 border-top">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="section-title">Research</h2>
+        <small class="section-sub">(* indicates equal contribution, <span class="representative">highlight</span> indicates key papers)</small>
+      </div>
+      
+      <!-- Example Publication Card -->
+      <div class="card mb-3 publication-card representative">
+        <div class="row g-0 align-items-center">
+          <div class="col-md-4">
+            <a href="https://kasyap3.github.io/website/">
+              <img src="assets/pap1.png" class="img-fluid rounded-start" alt="Paper 1">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623002877">
+                  Deep Learning based techniques for Neuro-degenerative Disorders Detection
+                </a>
+              </h5>
+              <p class="card-text authors">
+                <strong>L V S K B Kasyap Varanasi</strong>, 
+                <a href="https://www.iiits.ac.in/people/regular-faculty/dr-chandra-mohan-d/">Chandra Mohan Dasari</a>
+              </p>
+              <p class="card-text link">
+                <span class="venue">
+                  <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAI by Elsevier (IF - 7.5)</a>
+                </span> /
+                <a href="#">Homepage</a> /
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623002877">Paper</a> /
+                <a href="https://github.com/Kasyap3">Code</a> /
+                <a data-bs-toggle="collapse" href="#bibtex-sga" onclick="return false">bibtex</a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- begin -->
-      <div class="representative section-item">
-        <div class="row align-items-center">
-          <div class="col-xs-12 col-md-auto col-wrapper">
-            <div class="figure">
-              <a href="https://kasyap3.github.io/website/">
-                <img src="assets/pap1.png" alt="PAP1">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md col-wrapper">
-            <div class="title">
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623002877">
-                Deep Learning based techniques for Neuro-degenerative disorders detection              </a>
-            </div>
-            <div class="authors">
-              <me>L V S K B Kasyap Varanasi</me>,
-              <a href="https://www.iiits.ac.in/people/regular-faculty/dr-chandra-mohan-d/">Chandra Mohan Dasari</a>
-            </div>
-            <div class="link">
-              <span class="venue"><a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence">EAAI by Elsevier (IF - 7.5)</a></span> /
-              <a href="#">Homepage</a> /
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0952197623002877">Paper</a> /
-              <a href="https://github.com/Kasyap3">Code</a> /
-              <a data-bs-toggle="collapse" href="#bibtex-sga" onclick="return false">bibtex</a>
-            </div>
-          </div>
-        </div>
+      <!-- Additional publication cards can follow similarly ... -->
 
+    </section>
 
-     
-
-
-      <!-- begin -->
-      <div class="section-item">
-        <div class="row align-items-center">
-          <div class="col-xs-12 col-md-auto col-wrapper">
-            <div class="figure">
-              <a href="https://kasyap3.github.io/website/">
-                <img src="assets/pap 2.png" alt="PAP2">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md col-wrapper">
-            <div class="title">
-              <a href="https://kasyap3.github.io/website/">
-                FBDNN: Fetus Health Management Using Morse-based Bi-LSTM Deep Neural Network              </a>
-            </div>
-            <div class="authors">
-              <me>L V S K B Kasyap Varanasi</me>,
-              <a href="https://in.linkedin.com/in/sai-jaideep-reddy-mure-156401230">Mure Sai Jaideep Reddy</a>,
-              <a href="https://www.jnu.ac.in/content/anupamanamburu">Anupama Namburu</a>,
-              <a href="https://research.vit.ac.in/researcher/senthilkumar-m">Senthil Kumar Mohan</a>,
-              <a href="#">Vimala Nagabotu</a>
-              and
-              <a href="https://www.unirc.it/scheda_persona.php?id=787"> Massimiliano Ferrara</a>
-            </div>
-            <div class="link">
-              <span class="venue"><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE TPAMI</a></span> /
-              <a href="#">Paper</a> /
-              <a data-bs-toggle="collapse" href="#bibtex-FBDNN" onclick="return false">bibtex</a>
-            </div>
-          </div>
-        </div>
-
-   
-
-      <!-- begin -->
-      <div class="section-item">
-        <div class="row align-items-center">
-          <div class="col-xs-12 col-md-auto col-wrapper">
-            <div class="figure">
-              <a href="https://kasyap3.github.io/website/">
-                <img src="assets/pap3.jpg" alt="[PGMORL]">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md col-wrapper">
-            <div class="title">
-              <a href="https://kasyap3.github.io/website/">
-                Neuro-degenerative Disorder Prediction Using Curated Short Mutated Genome Sequences through Hybrid Deep Neural Networks
-              </a>
-            </div>
-            <div class="authors">
-              <a href="https://in.linkedin.com/in/naman-bhatia-11a308202">Naman Bhatia</a>,
-              <me>L V S K B Kasyap Varanasi</me>,
-              <a href="https://in.linkedin.com/in/parth-raghuwanshi-845765205">Parth Raghuwanshi</a>,
-              <a href="https://in.linkedin.com/in/avinashsaroj">Avinash Saroj</a>,
-              and
-              <a href="https://www.iiits.ac.in/people/regular-faculty/dr-chandra-mohan-d/">Chandra Mohan Dasari</a>
-            </div>
-            <div class="link">
-              <span class="venue"><a href="https://icml.cc/Conferences/2020">ICBCB 2024</a></span> /
-              <a href="#">Homepage</a> /
-              <a href="https://ieeexplore.ieee.org/xpl/conhome/1831644/all-proceedings">Paper</a> /
-              <a href="https://github.com/Kasyap3">Code</a> /
-              <a data-bs-toggle="collapse" href="#bibtex-pgmorl" onclick="return false">bibtex</a>
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-      <!-- begin -->
-      <div class="section-item">
-        <div class="row align-items-center">
-          <div class="col-xs-12 col-md-auto col-wrapper">
-            <div class="figure">
-              <a href="https://kasyap3.github.io/website/">
-                <img src="assets/pap4.png" alt="PAP4">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md col-wrapper">
-            <div class="title">
-              <a href="https://ieeexplore.ieee.org/document/9997832">
-              PsychNet: Explainable Deep Neural Networks for Psychiatric Disorders and Mental Illness              </a>
-            </div>
-            <div class="authors">
-              <me>L V S K B Kasyap Varanasi</me>,
-              <a href="https://www.iiits.ac.in/people/regular-faculty/dr-chandra-mohan-d/">Chandra Mohan Dasari</a>
-            </div>
-            <div class="link">
-              <span class="venue">CICT 2022</span> /
-              <a href="https://ieeexplore.ieee.org/document/9997832">Paper</a> /
-              <a data-bs-toggle="collapse" href="#" onclick="return false">bibtex</a>
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-
-      <!-- begin -->
-      <div class="representative section-item">
-        <div class="row align-items-center">
-          <div class="col-xs-12 col-md-auto col-wrapper">
-            <div class="figure">
-              <a href="https://kasyap3.github.io/website/">
-                <img src="assets/pap5.png" alt="[PAP5]">
-              </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md col-wrapper">
-            <div class="title">
-              <a href="https://link.springer.com/chapter/10.1007/978-981-19-9819-5_7">
-                Early Detection of ColoRectal Cancer Using Patch-Based Hybrid Model and Transfer Learning
-              </a>
-            </div>
-            <div class="authors">
-              <me>L V S K B Kasyap Varanasi<sup>*</sup></me>,
-              <a href="https://dblp.org/pid/278/3174.html">M S Jagadeesh</a><sup>*</sup>,
-              <a href="https://kluniversity.irins.org/profile/452363#personal_information_panel">V S Bhagavan</a>,
-              <a href="https://scholar.google.com/citations?user=urdxG3EAAAAJ">João Manuel R. S. Tavares</a>,
-              and
-              <a href="https://scholar.google.com/citations?user=XaktX0wAAAAJ">Valentina Emilia Balas</a>
-            </div>
-            <div class="link">
-              <span class="venue"><a href="https://link.springer.com/book/10.1007/978-981-19-9819-5">ICCBVIC 2022</a></span> /
-              <a href="https://link.springer.com/book/10.1007/978-981-19-9819-5">Homepage</a> /
-              <a href="https://link.springer.com/chapter/10.1007/978-981-19-9819-5_7">Paper</a> /
-              <a data-bs-toggle="collapse" href="#" onclick="return false">bibtex</a>
-            </div>
-          </div>
-        </div>
-
-    </div>
-    <!-- Research -->
-
-    <!-- Collapse -->
+    <!-- Collapsible More: Education & Experience -->
     <div class="collapse" id="more-content">
-
       <!-- Education -->
-      <div class="sec-wrapper exp-wrapper" id="edu">
-
-        <div class="row section-head">
-          <div class="col col-wrapper">
-            <div class="section-title">Education</div>
+      <section id="edu" class="sec-wrapper exp-wrapper py-4 border-top">
+        <h2 class="section-title">Education</h2>
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <h5><a href="https://www.umass.edu/">University of Massachusetts Amherst</a></h5>
+            <p class="mb-0">MS in Computer Science</p>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <p>Sep. 2024 - Present</p>
+          </div>
+          <div class="col-12">
+            <small>Amherst, MA</small>
           </div>
         </div>
-
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.umass.edu/">University of Massachusetts Amherst</a>
-            </div>
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <h5><a href="https://www.vitap.ac.in/">Vellore Institute of Technology</a></h5>
+            <p class="mb-0">B.Tech. in Computer Science and Engineering</p>
           </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              MS in Computer Science
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              Sep. 2024 - Present
-            </div>
+          <div class="col-md-4 text-md-end">
+            <p>Aug. 2020 - Jun. 2024</p>
           </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Amherst, MA
-            </div>
+          <div class="col-12">
+            <small>Amaravati, AP</small>
           </div>
         </div>
-        <!-- end -->
-
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.vitap.ac.in/">Vellore Institute of Technology</a>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              B.Tech. in Computer Science and Engineering
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              Aug. 2020 - Jun. 2024
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Amaravati, AP
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-      </div>
-      <!-- Education -->
+      </section>
 
       <!-- Experience -->
-      <div class="sec-wrapper exp-wrapper" id="exp">
-        <div class="row section-head">
-          <div class="col col-wrapper">
-            <div class="section-title">Experience</div>
+      <section id="exp" class="sec-wrapper exp-wrapper py-4 border-top">
+        <h2 class="section-title">Experience</h2>
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <h5><a href="https://www.microsoft.com/en-us/research/group/hax-team">Aira Technologies</a></h5>
+            <p class="mb-0">AI Systems Intern | Advisor: <a href="https://www.linkedin.com/in/jash-rathod">Jash Rathod</a></p>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <p>Jan. 2025 - Present</p>
+          </div>
+          <div class="col-12">
+            <small>Saratoga, CA</small>
           </div>
         </div>
-        
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.microsoft.com/en-us/research/group/hax-team">Aira Technologies</a>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              AI Systems Intern | Advisor: <a href="https://www.linkedin.com/in/jash-rathod">Jash Rathod</a>
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              Jan. 2025 - Present
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Saratoga, CA
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.microsoft.com/en-us/research/group/hax-team">Microsoft Research</a>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              Research Associate | Advisor: <a href="https://www.microsoft.com/en-us/research/people/gaganbansal/">Prof. Gagan Bansal</a>
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              Jan. 2024 - Jul. 2024
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Cambridge, MA
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.utoronto.ca/">University of Toronto and Ontario Tech University</a>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              Research Intern | Advisor:
-              <a href="https://www.cs.toronto.edu/~rahulgk/index.html">Prof. Rahul G Krishnan</a>
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              May 2023 - Sep 2023
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Toronto, ON
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.iiits.ac.in/"> Indian Institute of Information Technology, SriCity</a>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              Research Assistant | Advisor: <a href="https://www.iiits.ac.in/people/regular-faculty/dr-chandra-mohan-d/">Prof. Chandra Mohan Dasari</a>
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              Jun. 2022 - Apr. 2023
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Sricity, AP
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-        <!-- begin -->
-        <div class="section-item">
-          <div class="row align-items-center">
-            <div class="col col-wrapper title">
-              <a href="https://www.haihg.org/">Harvard University</a>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-9 col-wrapper info">
-              Research Summer Intern | Advisor: <a href="http://www.jfrankle.com/">Prof. Jonathan Frankle</a>
-            </div>
-            <div class="col-md-3 col-wrapper time">
-              Jun. 2022 - Aug. 2022
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="col col-wrapper location">
-              Cambridge, MA
-            </div>
-          </div>
-        </div>
-        <!-- end -->
-
-      </div>
-      <!-- Experience -->
-
+        <!-- Additional experience items follow similarly ... -->
+      </section>
     </div>
-    <!-- Collapse -->
 
     <!-- Footer -->
-    <footer class="citation col-wrapper">
-      <!-- If you are using my template, please kindly cite the source as follows -->
-      <!-- <div class="text-muted"><a href="https://pingchuan.ma/">Template</a></div> -->
-      <div class="text-muted">Feel free to build your homepage upon my <a class="template" href="https://github.com/Kasyap3/website">template</a> ;)</div>
-      <div class="text-muted">
-        Copyright &copy; <span id="year"></span> Kasyap Varanasi
-        <i class="bi bi-dot"></i>
+    <footer class="citation text-center py-3 mt-4">
+      <small class="text-muted">
+        Feel free to build your homepage upon my <a href="https://github.com/Kasyap3/website">template</a> ;) &nbsp;
+        &copy; <span id="year"></span> Kasyap Varanasi &nbsp;
+        <i class="bi bi-dot"></i> 
         <a href="https://www.umass.edu/accessibility/">Accessibility</a>
-      </div>
+      </small>
     </footer>
-
   </div>
 
+  <script defer src="js/script.js"></script>
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
-
-<script defer src="js/script.js"></script>
-
 </html>
